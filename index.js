@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require("fs");
+const badges = require("badges");
 const { Console } = require('console');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
@@ -18,24 +19,20 @@ inquirer
         name: 'description',
     },
     {
-        type: "name",
-        message:'Enter a table of contents.',
-        name: 'tableOfContents',
-    },
-    {
-        type: "input",
+        type: "input",//Defaults
         message: 'What is needed to install to run this application?',
         name: 'installation',
     },
     {
         type: "input",
-        message:'What is the usage?',
+        message:'What is the app usage?',
         name: 'usage',
     },
-    {
-        type: "input",
+    {//----List
+        type: "list",
         message: 'What is the license used?',
         name: 'license',
+        choices:['MIT','CC','GNU','ISC']
     },
     {
         type: "input",
@@ -63,7 +60,7 @@ inquirer
                 }
     )
     })
-
+function generateBadges (){};
 // TODO: Create a function to initialize app
 function init() {}
 

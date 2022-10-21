@@ -9,19 +9,16 @@ SO THAT I can quickly create a professional README for a new project
 ## Acceptance Criteria
 
 GIVEN a command-line application that accepts user input
-TODO:
-Consolidated List:
-Title
+TODO:Consolidated List:
 License Badge
-Github Username
+
+Complete:
 e-mail address
 table of contents
+Title
+Github Username
 
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
-WHEN I enter my project title
-THEN this is displayed as the title of the README
 
 WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
 THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
@@ -37,7 +34,13 @@ THEN this is added to the section of the README entitled Questions, with instruc
 
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
+
 Complete:
-## Notes
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+
 
 
