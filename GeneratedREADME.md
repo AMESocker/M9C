@@ -1,12 +1,6 @@
-# Makayls's Play Yard
+# Makayla's Play Yard
 ## License Used 
-function renderLicenseSection(license) {
-  if (data.license == MIT) {'[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
-}else{
-  'None'
-}
- 
-}
+MIT
 ## Description 
 Old McDonald's Farm
 ## Table of Contents
