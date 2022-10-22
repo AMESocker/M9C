@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require("fs");
-const badges = require("badges");
+// const badges = require("badges"); not an npm
 const { Console } = require('console');
 const generateMarkdown = require('./utils/generateMarkdown');
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 //----prompt section format of inquirer----
 inquirer
     .prompt([
@@ -51,7 +51,7 @@ inquirer
     },
 ])
 
-// TODO: Create a function to write README file
+//Create a function to write README file
 // function writeToFile(fileName, data) {}
 
     .then((data) => {
