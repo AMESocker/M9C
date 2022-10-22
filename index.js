@@ -32,7 +32,7 @@ inquirer
         type: "list",
         message: 'What is the license used?',
         name: 'license',
-        choices:['MIT','CC','GNU','ISC']
+        choices:['MIT','CC','GNU GPL v3','ISC','Apache 2.0','BSD 3-Clause','Eclipse Public License 1.0','Mozilla Public License 2.0','Artistic License 2.0']
     },
     {
         type: "input",

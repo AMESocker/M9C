@@ -1,19 +1,26 @@
-# Makayla's Play Yard
+# Makayls's Play Yard
 ## License Used 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+function renderLicenseSection(license) {
+  if (data.license == MIT) {'[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+}else{
+  'None'
+}
+ 
+}
 ## Description 
 Old McDonald's Farm
 ## Table of Contents
-- [Installation](#Installation)  
-- [Contributors](#Contributors)  
-- [More-Info](#More-Info)  
+- [Installation](##Installation)  
+- [Contributors](##Contributors)  
+- [More-Info](##More-Info)  
 ## Installation 
 Stacking Blocks
 ## Data Usage
 Under 3
 ## Contributors 
-  [amesocker](github.com/amesocker)
-## Play
+GitHub Account:[amesocker](github.com/amesocker)
+## Tests Needed 
+Play
 ## More Info 
 If you have any more questions please contact me at aesocher@yahoo.com
      

@@ -20,13 +20,13 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 ## License Used 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+${data.license}
 ## Description 
 ${data.description}
 ## Table of Contents
-- [Installation](#Installation)  
-- [Contributors](#Contributors)  
-- [More-Info](#More-Info)  
+- [Installation](##Installation)  
+- [Contributors](##Contributors)  
+- [More-Info](##More-Info)  
 ## Installation 
 ${data.installation}
 ## Data Usage
